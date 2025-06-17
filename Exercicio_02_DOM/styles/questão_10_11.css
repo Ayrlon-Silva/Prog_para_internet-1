@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+select {
+    width: 220px;
+    height: 300px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+h1 {
+    text-align: center;
+}
+
+#BackButton{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
